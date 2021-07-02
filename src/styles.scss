@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.customtooltipmodal {
+    transform: inherit !important;
+    position: absolute;
+    right: 0 !important;
+    left: inherit !important;
+}
+.custom-dropdown{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.cdk-overlay-pane {
+    top: 116.769px !important;
+    left: 500.977px !important;
+}

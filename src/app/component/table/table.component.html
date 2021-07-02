@@ -1,0 +1,206 @@
+<nz-table #basicTable [nzData]="listOfData" class="table__content">
+  <thead>
+    <tr>
+      <th nzWidth="5%"></th>
+      <th nzWidth="40%" id="item-name">Engagement Name</th>
+      <th nzWidth="15%" id="item-code">Code</th>
+      <th nzWidth="25%" id="item-iar-date">IAR Date</th>
+      <th nzWidth="15%" id="item-ifa-date">AFA Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container>
+      <tr *ngFor="let dat of basicTable.data">
+        <td nzWidth="5%" id="item-avatar">
+          <div class="avatar">
+            <span>{{dat.name[0].toUpperCase()}}</span>
+          </div>
+        </td>
+        <td nzWidth="40%" id="item-name">
+          <div class="wrapper">
+            <div class="full-name">
+              <span>{{dat.name}}</span>
+            </div>
+            <div class="popUp">
+              <div class="header">
+                <div nz-col nzFlex="60px" class="avatar">
+                  <div>
+                    <span>C</span>
+                  </div>
+                </div>
+
+                <div nz-col nzFlex="auto" class="header-name">
+                  <div class="name">
+                    <p>{{dat.code}}</p>
+                    <span>05/03/3030</span>
+                  </div>
+
+                </div>
+              </div>
+              <div class="body">
+                ames dolor sit amen.
+
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+                <p>ames dolor sit amen</p>
+
+              </div>
+            </div>
+          </div>
+          <!-- <span nz-button nz-dropdown [nzDropdownMenu]="menuExport"
+          >{{dat.name}}<em nz-icon nzType="down"></em></span>
+          <nz-dropdown-menu #menuExport="nzDropdownMenu" class="custom-dropdown">
+            <div class="modalTooltip">
+              <div>
+                <div class="modal-header d-flex">
+                  <span class="avatar">H</span>
+                  <div>
+                    <p class="nav-name">Hahahahahhahah lee jasf sfja ksfjsdk ldsv sd.LTD sdjk </p>
+                    <span class="nav-date">05/05/2021 </span>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  This is a modal.
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                  <p>This is a modal.</p>
+                </div>
+              </div>
+            </div>
+          </nz-dropdown-menu> -->
+        </td>
+        <td nzWidth="15%" id="item-code">{{dat.age}}</td>
+        <td nzWidth="25%" id="item-iar-date">{{dat.address}}</td>
+        <td nzWidth="15%" id="item-ifa-date">{{dat.address}}</td>
+      </tr>
+
+    </ng-container>
+  </tbody>
+</nz-table>
+<div style="margin: 40px;    padding-top: 169px;">
+  <div class="popUpvv">
+    <div class="header">
+      <div nz-col nzFlex="60px" class="avatar">
+        <div>
+          <span>C</span>
+        </div>
+      </div>
+
+      <div nz-col nzFlex="auto">
+        <div class="name">
+          <p>Hahahahahah sầ jaskfja jsakfjaskf </p>
+          <span>05/03/3030</span>
+        </div>
+
+      </div>
+    </div>
+    <div class="body">
+      ames dolor sit amen.
+
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+      <p>ames dolor sit amen</p>
+
+    </div>
+  </div>
+</div>
+<div style="height: 300px;"></div>
+
+
+
+
+
+
+<!-- <div class="modalTooltip">
+  <div>
+    <div class="modal-header d-flex">
+      <span class="avatar">H</span>
+      <div>
+        <p class="nav-name">Hahahahahhahah lee jasf sfja ksfjsdk ldsv sd.LTD sdjk </p>
+        <span class="nav-date">05/05/2021 </span>
+      </div>
+    </div>
+    <div class="modal-body">
+      This is a modal.
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+      <p>This is a modal.</p>
+    </div>
+  </div>
+</div> -->
